@@ -1,0 +1,58 @@
+<html>
+<head><title>CSS Styles</title>
+<link href="stylesheet.css" rel="stylesheet" >
+<style>
+ol{
+list-style-type: upper-alpha;
+//list-style-type: lower-alpha;
+}
+ul{
+font-family:Arial;
+list-style-type: square;//circle//none
+list-style-image:url(pic.gif);
+}
+.color{
+color:red;
+background-color:lightpink;
+width:500px;
+}
+#main{
+color:green;
+}
+.inline{
+font-size:32;
+}
+.modify{
+font-style:italic;
+color:blue;
+}
+#block{
+background-color:lightblue;
+width:500px
+}
+.paragraph
+{
+background-color:lightgreen;
+width:500px;
+}
+</style>
+</head>
+<body>
+<h1 id="main" style="text-align:center">CSS STYLES</h1>
+<div class="modify">
+<ol id="block">
+<li>apple</li>
+<li>orange</li>
+<li>strawberry</li>
+</ol>
+</div>
+
+<ul class="color">
+<li>Pink</li>
+<li>black</li>
+<li>red</li>
+</ul>
+
+<p style="text-algin:justify" class="paragraph">This is <span class="inline">Inline style</span>.Styles are of 3 types inline,internal,external stylesheets.</p>
+</body>
+</html>
